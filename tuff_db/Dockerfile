@@ -1,4 +1,4 @@
-FROM postgres:15
+FROM postgres:latest
 
 ENV POSTGRES_DB=tuff_db
 ENV POSTGRES_USER=tuff
