@@ -14,7 +14,7 @@ FROM openjdk:17
 
 WORKDIR /app
 
-COPY --from=build /app/target/tuff_backend.jar app.jar
+COPY --from=build /app/target/tuff_backend.jar tuff_backend.jar
 
 EXPOSE 7575
-CMD ["java", "-jar", "app.jar"]
+CMD ["java", "-jar", "tuff_backend.jar"]
