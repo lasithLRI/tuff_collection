@@ -89,6 +89,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>tuff_backend</finalName>
 	</build>
 
 </project>
